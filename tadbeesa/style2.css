@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./img/Tadbesa.png);
+    background-size: 95vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(196, 114, 8);
+    background-position: bottom center;
+}
+
+nav {
+    background-color: rgb(9, 3, 63);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a {
+    font-size: 1.4rem;
+    color: darkorange;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+    color: rgb(128, 83, 0);
+}
